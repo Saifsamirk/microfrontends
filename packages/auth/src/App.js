@@ -12,6 +12,7 @@ const generateClassName = createGenerateClassName({
   productionPrefix: "au",
 });
 
+// Export the auth component
 export default ({ history, onSignIn }) => {
   return (
     <div>
