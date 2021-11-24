@@ -16,7 +16,7 @@ const generateClassName = createGenerateClassName({
 });
 
 // Exporting the app component to be displayed as a container
-// that wraps all micro projects inside it
+// that wraps all micro projects inside
 export default () => {
   const [isSignedIn, setSignedIn] = useState(false);
 
